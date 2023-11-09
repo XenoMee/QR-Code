@@ -27,7 +27,7 @@ body{
 .card{
     background-color: hsl(0, 0%, 100%);
     max-width: 255px;
-    height: 430px;
+    height: 410px;
     border-radius: 15px;
 }
 
@@ -38,8 +38,8 @@ body{
 
 .description{
     display: inline-block;
-    margin: 0px;
-    padding: 10px 0px;
+    margin: 5px 0px;
+    padding: 5px 0px;
 }
 
 h3{
@@ -47,7 +47,7 @@ h3{
 }
 
 p{
-    font-size: 15px;
+    font-size: 13px;
     color: hsl(220, 15%, 55%); 
 }
 
