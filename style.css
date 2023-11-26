@@ -20,6 +20,7 @@ body{
     align-items: center;
     padding: 1rem;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .code-card > img {
