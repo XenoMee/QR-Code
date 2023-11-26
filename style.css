@@ -29,14 +29,20 @@ body{
     object-fit: cover;
 }
 
+.code-card * {
+    margin: 0;
+}
+
 .card-title{
     color: hsl(218, 44%, 22%);
     font-size: 1.4rem;
+    margin-top: 1.5rem;
 }
 
 .card-text{
     font-size: 1rem;
     color: hsl(220, 15%, 55%); 
+    margin-top: 1rem;
 }
 
 .attribution{
