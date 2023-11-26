@@ -14,7 +14,7 @@ body{
 .code-card{
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    width: 15rem;
+    width: 18rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -29,16 +29,9 @@ body{
     object-fit: cover;
 }
 
-.text{
-    margin: 0rem 1rem;
-}
-
-.description{
-    margin: 0.3rem 0rem;
-}
-
-h3{
+.card-title{
     color: hsl(218, 44%, 22%);
+    
 }
 
 p{
