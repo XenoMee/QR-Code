@@ -31,11 +31,11 @@ body{
 
 .card-title{
     color: hsl(218, 44%, 22%);
-    
+    font-size: 1.4rem;
 }
 
-p{
-    font-size: 0.82rem;
+.card-text{
+    font-size: 1rem;
     color: hsl(220, 15%, 55%); 
 }
 
