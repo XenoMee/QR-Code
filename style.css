@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 body{
@@ -10,9 +11,8 @@ body{
 
 .content{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .code-card{
