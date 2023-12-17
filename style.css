@@ -17,19 +17,19 @@ body{
 
 .code-card{
     background-color: hsl(0, 0%, 100%);
+    max-width: 18rem;
     display: flex;
-    width: 18rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 1rem;
     padding: 1rem 1rem 2.5rem 1rem;
     border-radius: 1rem;
-    text-align: center;
 }
 
 .code-card > img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 1rem;
     object-fit: cover;
 }
