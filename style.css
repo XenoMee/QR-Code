@@ -28,26 +28,20 @@ body{
     border-radius: 1rem;
 }
 
-.code-card > img {
+.code-card-image {
     max-width: 100%;
     border-radius: 1rem;
     object-fit: cover;
 }
 
-.code-card * {
-    margin: 0;
-}
-
 .card-title{
     color: hsl(218, 44%, 22%);
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .card-text{
-    font-size: 1rem;
-    max-width: 16rem;
     color: hsl(220, 15%, 55%); 
+    font-size: 0.95rem;
 }
 
 .attribution{
