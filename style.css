@@ -65,6 +65,7 @@ img{
 
 .card__content{
     padding: var(--content-padding);
+    text-align: center;
 
     display: grid;
     gap: var(--content-spacing);
