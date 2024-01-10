@@ -40,6 +40,10 @@ h1{
     overflow-wrap: break-word;
 }
 
+/* h1{
+    line-height: 1.2;
+} */
+
 /* responsive images */
 img{
     display: block;
@@ -48,6 +52,7 @@ img{
 
 .card{
     --content-padding: 1.5rem;
+    --content-spacing: 1rem;
 
     background-color: var(--clr-primary-100);
     padding: 1rem;
@@ -60,4 +65,7 @@ img{
 
 .card__content{
     padding: var(--content-padding);
+
+    display: grid;
+    gap: var(--content-spacing);
 }
