@@ -58,6 +58,7 @@ img{
     background-color: var(--clr-primary-100);
     padding: 1rem;
     border-radius: 1rem;
+    max-width: 20.5rem;
 }
 
 .card__qr{
