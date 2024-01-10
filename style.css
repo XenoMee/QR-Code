@@ -70,3 +70,7 @@ img{
     display: grid;
     gap: var(--content-spacing);
 }
+
+.card__title{
+    color: var(--clr-accent-900);
+}
