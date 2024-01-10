@@ -47,7 +47,7 @@ img{
 }
 
 .card{
-    /* --content-padding: 1.5rem; */
+    --content-padding: 1.5rem;
 
     background-color: var(--clr-primary-100);
     padding: 1rem;
