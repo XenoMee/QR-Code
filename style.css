@@ -23,6 +23,7 @@
 /* general styling */
 body{
     background-color: var(--clr-secondary-200);
+    color: var(--clr-accent-400);
     font-family: var(--ff-base);
     font-weight: var(--fw-regular);
     font-size: .9rem;
