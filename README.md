@@ -17,12 +17,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![desktopVersion](./images/QR_Code_Screenshot.png)
+![](./images/QR_Code_Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/XenoMee/QR-Code)
-- Live Site URL: [Add live site URL here](https://xenomee.github.io/QR-Code/)
+- Solution URL: [https://github.com/XenoMee/QR-Code](https://github.com/XenoMee/QR-Code)
+- Live Site URL: [https://xenomee.github.io/QR-Code/](https://xenomee.github.io/QR-Code/)
 
 ## My process
 
