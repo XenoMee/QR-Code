@@ -13,13 +13,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![](./images/QR_Code_Screenshot.png)
+![desktopVersion](./images/QR_Code_Screenshot.png)
 
 ### Links
 
