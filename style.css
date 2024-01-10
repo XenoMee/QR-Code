@@ -1,3 +1,14 @@
+:root{
+    --clr-primary-100:hsl(0, 0%, 100%);
+    --clr-secondary-200: hsl(212, 45%, 89%);
+    --clr-accent-400:hsl(220, 15%, 55%);
+    --clr-accent-900: hsl(218, 44%, 22%);
+
+    --ff-base: 'Outfit', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
 
 /* makes sizing simpler */
 *, *::after, *::before{
