@@ -15,20 +15,32 @@
     box-sizing: border-box;
 }
 
+/* reseting margins */
 *{
     margin: 0;
 }
 
+/* general styling */
 body{
+    background-color: var(--clr-secondary-200);
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: .9rem;
     line-height: 1.5;
     min-height: 100svh;
+
+    display: grid;
+    place-content: center;
+    padding: 0rem 1.5rem;
 }
 
+/* wraping long text */
 p,
 h1{
     overflow-wrap: break-word;
 }
 
+/* responsive images */
 img{
     display: block;
     max-width: 100%;
