@@ -54,6 +54,10 @@ img{
     border-radius: 1rem;
 }
 
+.card__qr{
+    border-radius: .5rem;
+}
+
 .card__content{
     padding: var(--content-padding);
 }
