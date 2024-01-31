@@ -58,7 +58,6 @@ body {
 
 .code {
   --content-padding: 1rem;
-  --content-spacing: 1rem;
 
   background-color: var(--clr-primary-100);
   padding: var(--content-padding);
@@ -73,9 +72,6 @@ body {
 
 .code__content {
   padding: var(--content-padding);
-
-  display: grid;
-  gap: var(--content-spacing);
 }
 
 .code__title {
