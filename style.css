@@ -76,4 +76,5 @@ body {
 
 .code__title {
   color: var(--clr-accent-900);
+  margin-bottom: 0.5rem;
 }
