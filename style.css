@@ -1,78 +1,80 @@
-:root{
-    --clr-primary-100:hsl(0, 0%, 100%);
-    --clr-secondary-200: hsl(212, 45%, 89%);
-    --clr-accent-400:hsl(220, 15%, 55%);
-    --clr-accent-900: hsl(218, 44%, 22%);
+:root {
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-secondary-200: hsl(212, 45%, 89%);
+  --clr-accent-400: hsl(220, 15%, 55%);
+  --clr-accent-900: hsl(218, 44%, 22%);
 
-    --ff-base: 'Outfit', sans-serif;
+  --ff-base: "Outfit", sans-serif;
 
-    --fw-regular: 400;
-    --fw-bold: 700;
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 /* makes sizing simpler */
-*, *::after, *::before{
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 /* reseting margins */
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
 /* general styling */
-body{
-    background-color: var(--clr-secondary-200);
-    color: var(--clr-accent-400);
-    font-family: var(--ff-base);
-    font-weight: var(--fw-regular);
-    font-size: .9rem;
-    line-height: 1.5;
-    min-height: 100svh;
+body {
+  background-color: var(--clr-secondary-200);
+  color: var(--clr-accent-400);
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  min-height: 100svh;
 
-    display: grid;
-    place-content: center;
-    padding: 0rem 1.5rem;
+  display: grid;
+  place-content: center;
+  padding: 0rem 1.5rem;
 }
 
 /* wraping long text */
 p,
-h1{
-    overflow-wrap: break-word;
+h1 {
+  overflow-wrap: break-word;
 }
 
-h1{
-    line-height: 1.2;
+h1 {
+  line-height: 1.2;
 }
 
 /* responsive images */
-img{
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-.card{
-    --content-padding: 1.5rem;
-    --content-spacing: 1rem;
+.code {
+  --content-padding: 1rem;
+  --content-spacing: 1rem;
 
-    background-color: var(--clr-primary-100);
-    padding: 1rem;
-    border-radius: 1rem;
-    max-width: 20.5rem;
+  background-color: var(--clr-primary-100);
+  padding: var(--content-padding);
+  text-align: center;
+  border-radius: 1rem;
+  max-width: 20.5rem;
 }
 
-.card__qr{
-    border-radius: .5rem;
+.code__image {
+  border-radius: 0.5rem;
 }
 
-.card__content{
-    padding: var(--content-padding);
-    text-align: center;
+.code__content {
+  padding: var(--content-padding);
 
-    display: grid;
-    gap: var(--content-spacing);
+  display: grid;
+  gap: var(--content-spacing);
 }
 
-.card__title{
-    color: var(--clr-accent-900);
+.code__title {
+  color: var(--clr-accent-900);
 }
